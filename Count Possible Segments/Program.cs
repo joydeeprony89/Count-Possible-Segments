@@ -39,9 +39,6 @@ namespace Count_Possible_Segments
         if (n > largest) largest = n;
         if (n < smallest) smallest = n;
       }
-
-      //largest = largest == int.MinValue ? smallest : largest;
-      //smallest = smallest == int.MaxValue ? largest : smallest;
       return (largest, smallest);
     }
   }
